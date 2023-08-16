@@ -1,7 +1,8 @@
 # circleSpace-Project
 
+## Behold the circle in the depth of space, can you find your way through the maze?
 
-This is a game i developed myself using common html5 tools 
+This is a game i developed myself using common html5 tools
 
 
 first page is the homepage that shows a red ball that moves like a heartbeat.
@@ -11,8 +12,8 @@ clicking newgame allows the game to commence.
 
 THE SETUP:
 
-The game is about moving the circkle through the maze while you avoid touching the wall of the maze..
+The game is about moving the circle through the maze while you avoid touching the wall of the maze..
 
-Upon reaching the end of the maze you see a welcome page that informs you about the rules of the game and how to survive, while you advance in the game you meet new obstacles and are expected to reach the maximum numbers of point i'll be including very soon.
+Upon reaching the end of the maze you begin an endles run in a different planet, jumping obstacles and trying to survive.
 
-number of points == how many times you sucefully move the circle through the maze and all the levels.
+Earn points by successfully moving through the maze without touching the walls, earn 50 or more points to access level 2. move the circle furthur from the spot marked X to pass
