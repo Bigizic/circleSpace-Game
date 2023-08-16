@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+ <title> Circle Space</title>
+ <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+<canvas id="canvas" width="800" height="600">
+   your browser does not support this game
+</canvas>
+</header>
+<div class="runReset">
+<button onclick="menu()" id="button1" ondblclick="none"> MENU</button> 
+<button onclick="window.location.reload()" id="reset" ondblclick="none"> RESET </button>
+</div>
+
+<div class="position">
+<button onclick="runUp()" id="up" ondblclick="none"> UP </button>
+<button onclick="runDown()" id="down" ondblclick="none"> DOWN</button>
+<button onclick="runRight()" id="right" ondblclick="none"> RIGHT</button>
+<button onclick="runLeft()" id="left" ondblclick="none"> LEFT </button>
+</div>
+
+<div class="theme_positions">
+<h4> Themes </h4>
+<button id="thunder_theme"> Thunder </button>
+<button id="white_n_black"> White N Black </button>
+<br>
+<button id="black_n_white"> Black N White </button>
+<button id="sketch_theme"> Sketch </button>
+<br>
+<button id="dark_sketch"> Dark Sketch </button>
+<button id="default_bng"> Default </button>
+<br>
+<button id="fire_theme"> Fire </button>
+<button id="intersteller_theme"> intersteller </button>
+</div>
+ 
+ <script src="./check_positions.js"> </script>
+ <script src="./create_circle.js"></script>
+ <script src="./background.js"></script>
+ <script src="./buttons.js"></script>
+ </body>
+</html>
+
