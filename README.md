@@ -19,12 +19,18 @@ Upon reaching the end of the maze you begin an endles run in a different planet,
 Earn points by successfully moving through the maze without touching the walls, earn 50 or more points to access level 2. move the circle furthur from the spot marked X to pass
 
 Controls:
+
 	1. Keyboard
+
 	2. Mouse
+
 	3. on Mobile kindly touch the up, down, right and left buttons to move
 
+
 Keyboard:
+
 	Use arrow(up, down, left, right) to move
 
 Mouse:
+
 	click on the up, down, right and left buttons to move
