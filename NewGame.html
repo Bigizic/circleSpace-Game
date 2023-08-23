@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title> Circle Space</title>
+      <link rel="icon" href="./imgs/circle_icon.png">
+      <link rel="stylesheet" href="./style.css">
+   </head>
+   <body>
+      <header>
+         <canvas id="canvas" width="800" height="600">
+            your browser does not support this game
+         </canvas>
+      </header>
+      <div class="runReset">
+         <button onclick="menu()" id="button1" ondblclick="none"> MENU</button> 
+         <button onclick="window.location.reload()" id="reset" ondblclick="none"> RESET </button>
+      </div>
+
+      <div class="position">
+         <button onclick="runUp()" id="up" ondblclick="none"> UP </button>
+         <button onclick="runDown()" id="down" ondblclick="none"> DOWN</button>
+         <button onclick="runRight()" id="right" ondblclick="none"> RIGHT</button>
+         <button onclick="runLeft()" id="left" ondblclick="none"> LEFT </button>
+      </div>
+
+      <div class="theme_positions">
+         <h4> Themes </h4>
+         <button id="thunder_theme" onclick="thunder()"> Thunder </button>
+         <button id="white_n_black" onclick="whitenblack()"> White N Black </button>
+         <br>
+         <button id="black_n_white" onclick="blacknwhite()"> Black N White </button>
+         <button id="sketch_theme" onclick="sketch()"> Sketch </button>
+         <br>
+         <button id="dark_sketch" onclick="darkSketch()"> Dark Sketch </button>
+         <button id="default_bng" onclick="defaultTheme()"> Default </button>
+         <br>
+         <button id="fire_theme" onclick="fireTheme()"> Fire </button>
+         <button id="intersteller_theme" onclick="interTheme()"> intersteller </button>
+      </div>
+
+      <script src="./check_positions.js"> </script>
+      <script src="./create_circle.js"></script>
+      <script src="./theme_togle.js"></script>
+      <script src="./background.js"></script>
+      <script src="./buttons.js"></script>
+   </body>
+</html>
+
